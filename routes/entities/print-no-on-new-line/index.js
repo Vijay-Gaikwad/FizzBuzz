@@ -1,3 +1,5 @@
+const validator = require('../../utilities/validator')
+
 const printNoOnNewLine = (req, res) => {
     if (validator.validateParams(req.params.no)) {
         let i = 1, result = [];

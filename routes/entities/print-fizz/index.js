@@ -1,3 +1,5 @@
+const validator = require('../../utilities/validator')
+
 const printFizz = (req, res) => {
     if (validator.validateParams(req.params.no)) {
         let i = 1, result = [];
