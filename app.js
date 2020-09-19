@@ -32,12 +32,12 @@ app.set('view engine', 'ejs');
 
 if (isHttpsOn) {
     let httpsServer = https.createServer(app);
-    httpsServer.listen(port, () => {
+    httpsServer.listen(process.env.PORT || port, () => {
         console.log(`Example app listening at https://localhost:${port}`)
     })
 } else {
     let httpServer = http.createServer(app);
-    httpServer.listen(port, () => {
+    httpServer.listen(process.env.PORT || port, () => {
         console.log(`Example app listening at http://localhost:${port}`)
     })
 }
