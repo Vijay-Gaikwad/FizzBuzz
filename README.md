@@ -10,19 +10,19 @@
 
 1. API that prints **each number from 1 to 100 on a new line**.  
    ```
-    /api/v1/print-no-on-new-line/100
+    http://localhost:3002/api/v1/print-no-on-new-line/100
    ```
 2. API that prints **each multiple of 3, print "Fizz" instead of the number**.  
    ```
-    /api/v1/print-fizz/100
+    http://localhost:3002/api/v1/print-fizz/100
    ```
 3. API that prints **each multiple of 5, print "Buzz" instead of the number**.  
    ```
-    /api/v1/print-buzz/100
+    http://localhost:3002/api/v1/print-buzz/100
    ```
 4. API that prints **numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number**.  
    ```
-    /api/v1/print-fizzbuzz/100
+    http://localhost:3002/api/v1/print-fizzbuzz/100
    ```
 
 ## Configure App
