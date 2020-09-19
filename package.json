@@ -2,8 +2,9 @@
   "name": "fizz-buzz",
   "version": "1.0.0",
   "description": "Design an API which Return data as Fizz Buzz Pattern",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vijay Gaikwad",

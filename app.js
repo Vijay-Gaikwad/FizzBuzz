@@ -46,4 +46,7 @@ app.get('/api/v1/print-no-on-new-line/:no', printNo.printNoOnNewLine);
 app.get('/api/v1/print-fizz/:no', printFizz.printFizz);
 app.get('/api/v1/print-buzz/:no', printBuzz.printBuzz);
 app.get('/api/v1/print-fizzbuzz/:no', printFizzBuzz.printFizzBuzz);
+app.get('/', (req, res) => {
+    res.send('Welcome to FizzBuzz App.')
+})
 
